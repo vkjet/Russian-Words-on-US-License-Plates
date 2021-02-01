@@ -5,7 +5,7 @@ Transliteration of Russian dictionary for US license plates
 
 Many US states allow customized license plates. Here's a dictionary for those of you who want to use Russian words on your plate: https://docs.google.com/spreadsheets/d/1RUIafOwZWmTg2UBlE6YCZPEsv4EDr64wT3HPPFG8qkU/edit?usp=sharing
 
-The Python code in the repo takes the frequency dictionary and transliterates each word. 
+The Python code in the repo takes the frequency dictionary and transliterates each word. I'm using the transliterate package by Artur Barseghyan (https://pypi.org/project/transliterate/).
 
 Files list and description:
 - ru_freq_dict.txt - original dictionary file in windows-1251 encoding (source: http://www.speakrus.ru/dict/hagen_freq_desc.rar)
